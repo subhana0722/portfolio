@@ -31,9 +31,9 @@ const GridCol = () => {
               <p className="text-white text-lg font-normal pl-6">Video</p>
             </div>
           </div> */}
-          <div className="relative w-full sm:w-1/3">
+          <div className="relative w-full sm:w-1/3 group">
             <img src="/container1.png" alt="container1" className="w-full" />
-            <div className="absolute inset-0 bg-opacity-75 opacity-0 hover:opacity-100 transition-opacit w-4/5 -translate-x-7 translate-y-64 duration-300">
+            <div className="absolute inset-0 bg-opacity-75 opacity-0 group-hover:opacity-100 transition-opacit w-4/5 -translate-x-7 translate-y-64 duration-300">
               <div className="bg-primary pt-5 pb-5 ">
                 <h2 className="text-white text-2xl font-semibold pl-6 ">
                   Lightbox Project

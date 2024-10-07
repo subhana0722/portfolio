@@ -2,8 +2,8 @@ import React from "react";
 
 const BlogCmnt = () => {
   return (
-    <section className=" container pt-10 pb-20 ">
-      <div>
+    <section className="container pt-10 pb-20 ">
+      <div className="w-full">
         <div className="mt-16 ">
           <h2 className="font-medium text-6xl mt-4 mb-5 text-primary">
             2 Comments
@@ -14,7 +14,7 @@ const BlogCmnt = () => {
           <div>
             <img src="commentImg.png" className="max-w-fit" alt="commentImg" />
           </div>
-          <div>
+          <div className="">
             <h3 className="font-medium text-xl text-primary mb-1 ">
               caliberthemes
             </h3>
@@ -24,9 +24,11 @@ const BlogCmnt = () => {
               commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque
               penatibus et magnis dis parturient montes
             </p>
-            <button className="border-solid border-2 border-secondary px-4 py-1 mt-6 ml-[669px]">
-              Reply
-            </button>
+            <div className="text-right">
+              <button className="border-solid border-2 border-secondary px-4 py-1 mt-6 ml-auto">
+                Reply
+              </button>
+            </div>
             <div className="ml-24">
               <div className="h-0.5 bg-slate-200 mt-20 mb-10"></div>
               <div className="">
@@ -41,9 +43,11 @@ const BlogCmnt = () => {
                 commodo ligula eget dolor. Aenean massa. Cum sociis Theme
                 natoque penatibus et magnis dis parturient montes
               </p>
-              <button className="border-solid border-2 border-secondary px-4 py-1 mt-6 ml-[669px]">
-                Reply
-              </button>
+              <div className="text-right">
+                <button className="border-solid border-2 border-secondary px-4 py-1 mt-6 ml-auto">
+                  Reply
+                </button>
+              </div>
             </div>
           </div>
         </div>

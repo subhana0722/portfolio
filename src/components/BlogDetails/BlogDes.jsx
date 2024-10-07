@@ -66,9 +66,9 @@ const BlogDes = () => {
             <button className="border-solid border-2 border-secondary px-4 py-2 mr-3">
               Minimal
             </button>
-            <div className="bg-forth h-14 mt-12 ">
-              <p className="pt-4 pl-7 ">Share</p>
-              <div className="text-primary">
+            <div className="bg-forth h-14 mt-12 flex items-center">
+              <p className="pl-7 ">Share</p>
+              <div className="text-primary ml-auto">
                 <ul className="flex gap-4 justify-end">
                   <li className="rounded-full w-7 h-7 flex justify-center items-center">
                     <a href="#">
