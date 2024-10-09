@@ -16,6 +16,7 @@ import BlogDetails from "./pages/BlogDetails";
 import AboutBasic from "./pages/AboutBasic";
 import Page from "./pages/Page";
 import Grid from "./pages/Grid";
+import Portfoliosingle from "./pages/Portfoliosingle";
 
 function App() {
   const router = createBrowserRouter(
@@ -27,6 +28,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/about-basic" element={<AboutBasic />} />
           <Route path="/grid" element={<Grid />} />
+          <Route path="/portfolio-single" element={<Portfoliosingle />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blogdetails" element={<BlogDetails />} />{" "}
         </Route>

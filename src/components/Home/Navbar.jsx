@@ -14,11 +14,8 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li>
-            <Link
-              to="/page"
-              className="hover:text-secondary transition-all relative "
-            >
+          {/* <li>
+            <Link to="/page" className="hover:text-secondary transition-all relative ">
               Page
             </Link>
             <ul className=" hover:bg-black w-40 pl-2 absolute ">
@@ -33,14 +30,38 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
+          </li> */}
+          <li className="relative group">
+            <Link
+              to="/page"
+              className="hover:text-secondary transition-all relative"
+            >
+              Page
+            </Link>
+            <ul className="invisible group-hover:visible hover:bg-black w-40 pl-2 absolute mt-3">
+              <li className="font-normal text-lg pl-4">
+                <Link to="/about-basic" className="text-white transition-all">
+                  About Basic
+                </Link>
+              </li>
+              <li className="font-normal text-lg pl-4">
+                <Link to="/about" className="text-white transition-all">
+                  About Extended
+                </Link>
+              </li>
+            </ul>
           </li>
+
           <li>
             <Link to="/grid" className="hover:text-secondary transition-all">
               Portfolio Layouts
             </Link>
           </li>
           <li>
-            <Link to="/" className="hover:text-secondary transition-all">
+            <Link
+              to="/portfolio-single"
+              className="hover:text-secondary transition-all"
+            >
               Portfolio Single
             </Link>
           </li>

@@ -14,25 +14,17 @@ const BlogLive = () => {
             *
           </p>
         </div>
-        <div className="mt-6">
+        <div className="mt-6 mb-6">
           <textarea
             name="comment"
             id="comment"
             placeholder="Comment*"
           ></textarea>
         </div>
-        <div className="form mb-9">
-          <input
-            type="text"
-            placeholder="Name"
-            className="w-1/3 h-10 mt-5 mr-2"
-          />
-          <input type="email" placeholder="Email" className="w-1/3 h-10 mt-5" />
-          <input
-            type="text"
-            placeholder="Website"
-            className="w-1/3 h-10 mt-5"
-          />
+        <div className="form mb-9 grid grid-cols-3 gap-5">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Website" />
         </div>
         <button className="bg-primary px-9 py-5 text-white ">
           POST COMMENT
